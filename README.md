@@ -58,11 +58,9 @@ Removing previously gathered coverage data
 
 There is one pynguin command that we use today, the command to create tests.
 
-Run this command in the `pynguin` subdirectory.
+Run this command in the main directory.
 
-1. `cd pynguin`
-2. 
-`pynguin --project_path=.. --module_name=<module name> --output_path=. --assertion_generation=MUTATION_ANALYSIS --maximum_iterations=150 -v`
+`pynguin --project_path=. --module_name=<module name> --output_path=. --assertion_generation=MUTATION_ANALYSIS --maximum_iterations=150 -v`
 
 Substitute `<module name>` for the name of the module you wish to create tests for, `fibonacci` for example if you want to create tests for `fibonacci.py`.
 
@@ -79,7 +77,7 @@ If you've installed the extension correctly, there should be both a CodiumAI ico
 
 To generate tests for a class or for an individual function, press the `Generate tests` button above the corresponding class or function.
 
-Save the generated tests in a file in the `codiumai` folder.
+Save the generated tests in a file in the main folder.
 
 ## Notes on source files
 Can't include meta comments in the source file or CodiumAI will pick them up.
