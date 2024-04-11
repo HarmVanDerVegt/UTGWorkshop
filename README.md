@@ -62,7 +62,7 @@ Run this command in the `pynguin` subdirectory.
 
 1. `cd pynguin`
 2. 
-`pynguin --project_path=.. --module_name=<module name> --output_path=. --assertion_generation=MUTATION_ANALYSIS --maximum_iterations=100`
+`pynguin --project_path=.. --module_name=<module name> --output_path=. --assertion_generation=MUTATION_ANALYSIS --maximum_iterations=150 -v`
 
 Substitute `<module name>` for the name of the module you wish to create tests for, `fibonacci` for example if you want to create tests for `fibonacci.py`.
 
