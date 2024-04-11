@@ -31,10 +31,15 @@ Write your team name down on the whiteboard together with the following data:
 We have 50 minutes.
 
 5 minutes, explaining the workshop and creating groups
+
 10 minutes, setup of CodiumAI and Pynguin, downloading of the repository
+
 20 minutes, creating tests and evaluating chosen UTG
+
 5 minutes, discussion in your group on the effectiveness of you UTG
+
 10 minutes, presentation of thoughts of each group
+
 
 
 ## Essential commands
