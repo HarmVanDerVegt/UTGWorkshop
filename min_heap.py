@@ -38,14 +38,4 @@ class MinHeap:
     def get_min(self):
         return self.heap[0] if self.heap else None
     
-heap = MinHeap()
-heap.insert(3)
-heap.insert(2)
-heap.insert(15)
-heap.insert(5)
-heap.insert(4)
-heap.insert(45)
 
-print(heap.extract_min())  # Output: 2
-print(heap.extract_min())  # Output: 3
-print(heap.get_min())      # Output: 4
