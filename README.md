@@ -93,4 +93,4 @@ All of the code examples are without type hints, how does adding type hints impa
 
 1. Add type hints
 2. Generate tests again
-3. GOather data
+3. Gather data
